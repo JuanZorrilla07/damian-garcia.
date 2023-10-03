@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-w&fca1$)4pgu71pva0d)c)^x@1&k9wlyf$pxi9v^xycpub8w6^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'Romina',
     'web',
     'django.contrib.admin',
     'django.contrib.auth',
